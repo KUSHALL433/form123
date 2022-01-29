@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #75e3ea, #d6b1ff);
+  background-repeat: repeat-y;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  font-size: 2.2rem;
+  padding: 30px 0px 20px 0px;
+  color: purple;
+}
+.intro-text {
+  text-align: center;
+  font-size: 1.8rem;
+  color: purple;
+}
+img {
+  position: absolute;
+  left: 30px;
+  top: 3%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+h2 {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  color: darkblue;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px 0px 20px 0px;
+}
+label {
+  width: 140px;
+  display: inline-block;
+  margin: 0.2rem;
+  padding: 1rem;
+}
+.text-form {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+  font-size: 2.2rem;
+  color: white;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border-radius: 10vh;
+  margin: 2rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+button {
+  border-radius: 1rem;
+  background: deeppink;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 6rem;
+  padding: 2rem;
+}
+footer {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
+}
